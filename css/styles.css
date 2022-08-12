@@ -156,6 +156,7 @@ font-family: 'Raleway', sans-serif;
     padding-bottom: 200px;
     text-align: center;
     background-color: #2F303A;
+    background-image: url(../img/fon.jpg);
 
 }
 
@@ -199,6 +200,7 @@ font-family: 'Raleway', sans-serif;
     margin-right: 30px;
     
 }
+
 .info-item:last-child{
     margin-right: 0;
 }
@@ -286,6 +288,7 @@ font-family: 'Raleway', sans-serif;
 .tixt-team{
     padding-top: 30px;
     padding-bottom: 30px;
+
 }
 .team-pre-item{
     font-weight: 400;
@@ -294,6 +297,18 @@ font-family: 'Raleway', sans-serif;
         text-align: center;
         letter-spacing: 0.03em;
         color: #757575;
+}
+.client{
+    padding-top: 94px;
+
+}
+.client-titel{
+    font-style: normal;
+        font-weight: 700;
+        font-size: 36px;
+        line-height: calc(42/36);
+        text-align: center;
+        letter-spacing: 0.03em;
 }
 .menu{
 padding-top: 94px;
@@ -326,6 +341,7 @@ padding-bottom: 94px;
 .menu-btn:hover{
     background-color: #2196F3;
     color: #FFFFFF;
+    
 }
     
 .option-list{
@@ -338,7 +354,11 @@ padding-bottom: 94px;
 
 .option-item{
 width: 370px;
+
     
+}
+.option-item :hover{
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
 }
 
 .option-title{
