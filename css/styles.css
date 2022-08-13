@@ -319,8 +319,29 @@ font-family: 'Raleway', sans-serif;
         letter-spacing: 0.03em;
         color: #757575;
 }
+.icon-list{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 30px;
+}
+.icon-link{
+   display: flex;
+    border-radius: 50%;
+    height: 44px;
+    width: 44px;
+    background-color: #FFFFFF;
+    margin-top: 16px;
+    align-items: center;
+    justify-content: center;
+    fill: #afb1b8;
+}
+.icon-link:hover{
+    background-color: #2196F3;
+}
 .client{
     padding-top: 94px;
+    padding-bottom: 94px;
 
 }
 .client-titel{
@@ -330,6 +351,21 @@ font-family: 'Raleway', sans-serif;
         line-height: calc(42/36);
         text-align: center;
         letter-spacing: 0.03em;
+        margin-bottom: 50px;
+}
+.client-list{
+    display: flex;
+    gap: 30px;
+}
+.client-item{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 92px;
+    width: 170px;
+    background-color: #FFFFFF;
+    border: 1px solid #AFB1B8;
+    border-radius: 4px;
 }
 .menu{
 padding-top: 94px;
