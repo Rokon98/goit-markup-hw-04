@@ -336,8 +336,10 @@ font-family: 'Raleway', sans-serif;
     justify-content: center;
     fill: #afb1b8;
 }
-.icon-link:hover{
+.icon-link:hover,
+.icon-link:focus{
     background-color: #2196F3;
+    fill: #FFFFFF;
 }
 .client{
     padding-top: 94px;
@@ -352,20 +354,27 @@ font-family: 'Raleway', sans-serif;
         text-align: center;
         letter-spacing: 0.03em;
         margin-bottom: 50px;
+        
 }
+.client-link{
+    display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 92px;
+        width: 170px;
+        background-color: #FFFFFF;
+        border: 1px solid #AFB1B8;
+        border-radius: 4px;
+    fill: #afb1b8;
+}
+.client-link:hover{
+    fill: #2196F3;
+    border: 1px solid #2196F3;
+}
+
 .client-list{
     display: flex;
     gap: 30px;
-}
-.client-item{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 92px;
-    width: 170px;
-    background-color: #FFFFFF;
-    border: 1px solid #AFB1B8;
-    border-radius: 4px;
 }
 .menu{
 padding-top: 94px;
