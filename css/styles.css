@@ -136,6 +136,7 @@ font-family: 'Raleway', sans-serif;
         line-height: calc(16/14);
         letter-spacing: 0.02em;
         color: #757575;
+        
 }
 .contacts-mail:hover{
     color: #2196F3;
@@ -399,7 +400,6 @@ padding-bottom: 94px;
         letter-spacing: 0.03em;
         border: none;
         padding: 6px 22px;
-    
         border-radius: 4px;
 
 }
@@ -502,4 +502,38 @@ width: 370px;
 }
 .end-tel:hover{
     color: #2196F3;
+}
+.link-ss{
+        height: 80px;
+        width: 206px;
+        background: #2F303A;
+        border: 1px solid #AFB1B8;
+        border-radius: 4px;
+}
+.link-ss-titel{
+    font-weight: 700;
+        font-size: 14px;
+        line-height: calc(16/14);
+        letter-spacing: 0.03em;
+        color: #FFFFFF;
+        text-transform: uppercase;
+        margin-bottom: 20px;
+}
+.link-ss-list{
+    display: flex;
+    gap: 10px;
+}
+.link-ss-item{
+    display: flex;
+        border-radius: 50%;
+        height: 44px;
+        width: 44px;
+        align-items: center;
+        justify-content: center;
+        background: rgba(255, 255, 255, 0.1);
+        fill: #EEEEEE;
+           
+}
+.link-ss-item:hover{
+ background: #2196F3;
 }
