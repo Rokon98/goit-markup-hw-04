@@ -159,7 +159,12 @@ font-family: 'Raleway', sans-serif;
     padding-bottom: 200px;
     text-align: center;
     background-color: #2F303A;
-    background-image: url(../img/fon.jpg);
+    background-image: linear-gradient(
+        to rigth,
+     rgba(47, 48, 58, 0.4)
+    ),
+    url(../img/fon.jpg);
+
 
 }
 
@@ -524,9 +529,13 @@ box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px
         text-transform: uppercase;
         margin-bottom: 20px;
 }
+.link-ss{
+    
+    
+
+}
 .link-ss-list{
     display: flex;
-    justify-content: center;
     align-items: center;
     gap: 10px;
 }
