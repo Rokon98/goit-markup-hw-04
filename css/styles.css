@@ -137,6 +137,8 @@ font-family: 'Raleway', sans-serif;
         letter-spacing: 0.02em;
         color: #757575;
         fill: #757575;
+        background-repeat: no-repeat;
+        background-repeat: repeat-y;
         
 }
 .contacts-mail:hover{
@@ -150,6 +152,8 @@ font-family: 'Raleway', sans-serif;
         letter-spacing: 0.02em;
         color: #757575;
         fill: #757575;
+        background-repeat: no-repeat;
+        background-repeat: repeat-y;
         
 }
 .contacts-tel:hover{
