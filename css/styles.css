@@ -336,17 +336,16 @@ margin-bottom: 8px;
     height: 100%;
     align-items: center;
     justify-content: center;
-    border-radius: 50px;
+    border-radius: 50%;
     background-color: var(--iris-color);
+    fill: var(--white-background);
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
 
 }
 .inner-link:hover,
 .inner-link:focus{
     background-color: var(--ocean-color);
-}
-.inner-icon {
-    fill: var(--white-background);
 }
 /*CLIENT*/
 .client {
@@ -402,7 +401,6 @@ color: var(--navyblue-color);
 }
 .footer-box{
     margin-right: 120px;
-    align-items: baseline;
 }
 .footer-logo {
     display: inline-block;
@@ -426,7 +424,7 @@ line-height: 1.5;
 letter-spacing: 0.02em;
 }
 .footer-wrap {
-
+align-items: baseline;
 }
 .holder{
     display: flex;
@@ -458,14 +456,12 @@ margin-bottom: 16px;
     justify-content: center;
     border-radius: 50%;
     background-color: var(--iris-color);
+    fill: var(--white-background);
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .footer-wrap-link:hover,
 .footer-wrap-link:focus{
  background-color: var(--green-color);
-}
-.footer-wrap-icon {
-    fill: var(--white-background);
 }
 /*PORTFOLIO*/
 .content {
@@ -563,15 +559,18 @@ letter-spacing: 0.02em;
 
     transform: translateX(-50%) translateY(-50%);
     width: 408px;
-    height: 584px;
+    min-height: 584px;
     border-radius: 4px ;
     background-color: var(--dairy-color);
 }
 .modal-btn {
     position: absolute;
-     top: 32px;
-     right: 32px;
+    display: flex;
+     top: 24px;
+     right: 24px;
      border: none;
+     align-items: center;
+     justify-content: center;
 
      width: 24px;
      height: 24px;
