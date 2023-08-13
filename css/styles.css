@@ -373,6 +373,8 @@ color: var(--navyblue-color);
     flex-basis: calc((100% - 24px * 5) / 6);
     width: 168px;
     height: 88px;
+    transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    color 250ms cubic-bezier(0.4, 0, 0.2, 1);
    
 }
 .client-link{
@@ -384,8 +386,6 @@ color: var(--navyblue-color);
     align-items: center;
     justify-content: center;
     color: var(--lightslate-color);
-    transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1),
-    color 250ms cubic-bezier(0.4, 0, 0.2, 1);
    
 }
 
@@ -495,9 +495,7 @@ cursor: pointer;
 border-radius: 4px;
 border: 1px solid var(--cornflower-color);
 padding: 12px 24px;
-transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1),
-background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
-box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1), background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border-color 250ms cubic-bezier(0.4, 0, 0.2, 1), box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .content-btn:hover,
 .content-btn:focus{
@@ -543,7 +541,7 @@ transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
 }
 .projcts-item:hover .projcts-overlay{
-    transform: translateY(0);
+    transform: translateY(0%);
 }
 .projcts-box-text{
     font-size: 16px;
